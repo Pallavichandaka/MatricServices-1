@@ -2,7 +2,7 @@ import axios from "axios";
 import * as types from "./actionTypes";
 
 // const api = `http://localhost:2345/api/admin/users`;
-const api = `matricservices-2-production-e360.up.railway.app/api/admin/users`;
+const api = "https://matricservices-2-production-e360.up.railway.app/api/admin/users";
 
 //get admin details
 export const getAdminDetails = () => (dispatch) => {
